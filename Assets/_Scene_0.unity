@@ -1093,6 +1093,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1379229832}
+        m_MethodName: SwitchView
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1019096766
@@ -1626,6 +1637,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c120759cd4aa3f34b891acd946e580dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  uitLevel: {fileID: 699543261}
+  uitShots: {fileID: 1665489584}
+  uitButton: {fileID: 802696816}
+  castlePos: {x: 50, y: -9.5, z: 0}
+  castles:
+  - {fileID: 5295459}
+  level: 0
+  levelMax: 0
+  shotsTaken: 0
+  castle: {fileID: 0}
+  mode: 0
+  showing: Show Slingshot
 --- !u!1001 &1411596640
 Prefab:
   m_ObjectHideFlags: 0
@@ -1848,6 +1871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edce105a4f8a85d49b3fb7769d095882, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minDist: 0.1
 --- !u!120 &1764701858
 LineRenderer:
   m_ObjectHideFlags: 0

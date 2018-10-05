@@ -18,6 +18,7 @@ public class ProjectLine : MonoBehaviour {
         line = GetComponent<LineRenderer>();
         line.enabled = false;
         points = new List<Vector3>();
+    }
         public GameObject poi {
         get {
             return (_poi);
